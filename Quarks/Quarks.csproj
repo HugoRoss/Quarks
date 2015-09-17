@@ -115,6 +115,9 @@
     <Compile Include="AppSettings.cs" />
     <Compile Include="AssemblyExtensions\GetIsDebugBuild.cs" />
     <Compile Include="AttributeHelper.cs" />
+    <Compile Include="CultureInfoExtensions\CultureOverride.cs" />
+    <Compile Include="CultureInfoExtensions\FormatOverride.cs" />
+    <Compile Include="CultureInfoExtensions\LanguageOverride.cs" />
     <Compile Include="DiagnosticsTextWriter.cs" />
     <Compile Include="DynamicDictionary.cs" />
     <Compile Include="EnumExtensions\GetAttributeOfType.cs" />
@@ -200,6 +203,7 @@
     <Compile Include="NHibernate\UserTypes\NullableTimeType.cs" />
     <Compile Include="NHibernate\UserTypes\UIntType.cs" />
     <Compile Include="NHibernate\UserTypes\UShortType.cs" />
+    <Compile Include="StringExtensions\ConvertAccents.cs" />
     <Compile Include="TypeExtensions\IsNullable.cs" />
     <None Include="AssertComparer.nuspec">
       <DependentUpon>AssertComparer.cs</DependentUpon>
