@@ -132,6 +132,7 @@
     <Compile Include="RetrierTests.cs" />
     <Compile Include="SentenceSplitAndJoinExtensionTests.cs" />
     <Compile Include="ObjectExtensions\ChangeTypeToTests.cs" />
+    <Compile Include="StringExtensions\ConvertAccentsTest.cs" />
     <Compile Include="TitleizeTests.cs">
       <DependentUpon>InflectorTests.cs</DependentUpon>
     </Compile>
